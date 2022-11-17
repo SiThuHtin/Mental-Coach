@@ -1,0 +1,105 @@
+
+.colo{
+  background-color:#282828;
+  
+}
+
+.nav-list{
+  text-decoration: none;
+  color: white;
+}
+.search-height{
+  height: 32px;
+  border-radius: 30px;
+}
+.hero{
+  background-image: url("images/heroimage.png");
+  background-position: center;
+    background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+  
+
+  
+}
+.hero-con{
+  height: 100%;
+}
+nav ul li{
+  margin: 5px 15px;
+}
+.hero-section{
+  margin:100px 50px;
+  
+}
+.btn-h{
+  margin: 50px 100px;
+  
+  
+}
+.quote{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 200px;
+  background-color: #282828;
+  
+}
+.say{
+  color: white;
+}
+
+.author{
+  color:#CE7805 ;
+}
+.d-height{
+  height: 600px;
+  
+}
+.imageA {
+  width: 100%;
+  height: 100%;
+ 
+}
+.imageB{
+  width: 100%;
+  height: 100%;
+  
+
+}
+.form-img{
+  background-image: url("images/form.png");
+  background-position: center;
+    background-repeat: no-repeat;
+  background-size: cover;
+  height: 700px;
+  
+
+}
+.form-con{
+  width: 400px;
+  height: 400px;
+  background-color:white;
+  border: black solid 1px;
+  
+  border-radius: 20px;
+}
+.footer{
+  background-color: #444444;
+}
+.container-services{
+  height: 600px;
+  
+  
+}
+.b-color{
+  background-color: #282828;
+}
+.aboutus{
+  height: 500px;
+}
+.service{
+  background-color:#CE7805
+}
