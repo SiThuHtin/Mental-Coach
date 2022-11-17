@@ -1,4 +1,6 @@
 import React from "react";
+import DepressionImg from "../images/depression.png";
+
 
 function DepressionSection({ readD, setReadD }) {
   return (
@@ -34,7 +36,7 @@ function DepressionSection({ readD, setReadD }) {
         </div>
 
         <div className="col-md-6 ">
-          <img className="imageB d-height rounded " src="src\images\depression.png" />
+          <img className="imageB d-height rounded " src={DepressionImg} />
         </div>
       </div>
     </div>

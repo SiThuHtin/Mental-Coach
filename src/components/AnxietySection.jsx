@@ -1,4 +1,5 @@
 import React from "react";
+import AnxietyImg from "../images/anxiety.png";
 
 
 function AnxietySection({read,handleReadmore}) {
@@ -8,7 +9,7 @@ function AnxietySection({read,handleReadmore}) {
     <div className="container ">
       <div className="row my-5">
         <div className="col-md-6 ">
-          <img className="imageA d-height rounded" src="src\images\anxiety.png" />
+          <img className="imageA d-height rounded" src={AnxietyImg} />
         </div>
         <div className="col-md-6 ">
           <div className="d-flex flex-column align-items-center justify-content-center">

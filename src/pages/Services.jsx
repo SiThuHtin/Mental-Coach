@@ -1,4 +1,8 @@
 import React from "react";
+import Grief from "../images/grief.png";
+import ManageA from "../images/manageA.png";
+import ManageD from "../images/manageD.png";
+import Panic from "../images/panic.png";
 
 const Services = () => {
   return (
@@ -6,11 +10,11 @@ const Services = () => {
       <div className="container  ">
         <div className="row container-services  ">
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
-            <img src="src\images\manageA.png" alt="anxietymanage" className="imageA mt-4"/>
+            <img src={ManageA} alt="anxietymanage" className="imageA mt-4"/>
             <div className="h3 my-5 font-weight-bold">Anxiety Management</div>
           </div>
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center ">
-            <img src="src\images\manageD.png" alt="depressionmanage" className="imageA mt-4" />
+            <img src={ManageD} alt="depressionmanage" className="imageA mt-4" />
             <div className="h3 my-5 font-weight-bold">Depression Management</div>
           </div>
         </div>
@@ -18,11 +22,11 @@ const Services = () => {
       <div className="container">
         <div className="row container-services">
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
-            <img src="src\images\panic.png" alt="depressionmanage" className="imageA" />
+            <img src={Panic} alt="panic" className="imageA" />
             <div className="h3 my-5">Management of Panic Attacks</div>
           </div>
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
-            <img src="src\images\grief.png" alt="depressionmanage" className="imageA" />
+            <img src={Grief} alt="grief" className="imageA" />
             <div className="h3 my-5">Management of Grief</div>
           </div>
         </div>
