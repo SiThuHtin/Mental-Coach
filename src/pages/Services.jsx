@@ -4,13 +4,13 @@ const Services = () => {
   return (
     <div className="service">
       <div className="container  ">
-        <div className="row container-services ">
+        <div className="row container-services  ">
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
-            <img src="src\images\manageA.png" alt="anxietymanage" />
+            <img src="src\images\manageA.png" alt="anxietymanage" className="imageA mt-4"/>
             <div className="h3 my-5 font-weight-bold">Anxiety Management</div>
           </div>
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center ">
-            <img src="src\images\manageD.png" alt="depressionmanage" />
+            <img src="src\images\manageD.png" alt="depressionmanage" className="imageA mt-4" />
             <div className="h3 my-5 font-weight-bold">Depression Management</div>
           </div>
         </div>
@@ -18,11 +18,11 @@ const Services = () => {
       <div className="container">
         <div className="row container-services">
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
-            <img src="src\images\panic.png" alt="depressionmanage" />
+            <img src="src\images\panic.png" alt="depressionmanage" className="imageA" />
             <div className="h3 my-5">Management of Panic Attacks</div>
           </div>
           <div className="col-md-6 d-flex flex-column align-items-center justify-content-center">
-            <img src="src\images\grief.png" alt="depressionmanage" />
+            <img src="src\images\grief.png" alt="depressionmanage" className="imageA" />
             <div className="h3 my-5">Management of Grief</div>
           </div>
         </div>
