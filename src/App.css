@@ -59,13 +59,14 @@ nav ul li{
   
 }
 .imageA {
-  width: 600px;
-  height: 500px;
+width: 100%;
+height: 100%;
+  
  
 }
 .imageB{
-  width: 600px;
-  height: 500px;
+  width: 100%;
+  height: 100%;
   
 
 }
