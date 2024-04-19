@@ -1,8 +1,13 @@
 import React from "react";
 import DepressionImg from "../images/depression.png";
+import { useNavigate } from "react-router-dom";
 
+function DepressionSection() {
+   const navigate = useNavigate();
 
-function DepressionSection({ readD, setReadD }) {
+  function handleClick (){
+    navigate('/Depression')
+  }
   return (
     <div className="container ">
       <div className="row my-5 ">
@@ -15,20 +20,11 @@ function DepressionSection({ readD, setReadD }) {
               severe symptoms that affect how you feel, think, and handle daily
               activities, such as sleeping, eating, or working.
             </p>
-            {readD && (
-              <p className="fs-5  text-center">
-                Depression affects an estimated one in 15 adults 6.7% in any
-                given year. And one in six people 16.6% will experience
-                depression at some time in their life. Depression can occur at
-                any time, but on average, first appears during the late teens to
-                mid-20s. Women are more likely than men to experience
-                depression. 
-              </p>
-            )}
+            
             <button
               type="button"
               className="btn btn-dark my-2 b-color"
-              onClick={() => setReadD(readD === true ? false : true)}
+              onClick={handleClick}
             >
               Read More
             </button>

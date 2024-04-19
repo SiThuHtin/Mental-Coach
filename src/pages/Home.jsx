@@ -13,6 +13,7 @@ function Home({read,setRead,handleReadmore,readD,setReadD}) {
   return (
     <>
       {/*<Heading />*/}
+      
       <HeroSection />
       <Quote />
 

@@ -1,9 +1,13 @@
 import React from "react";
 import AnxietyImg from "../images/anxiety.png";
+import { useNavigate } from "react-router-dom";
 
-
-function AnxietySection({read,handleReadmore}) {
+function AnxietySection({read}) {
+  let navigate = useNavigate();
   
+  const handleClick=()=>{
+     navigate('/Anxiety')
+  }
 
   return (
     <div className="container ">
@@ -28,7 +32,7 @@ function AnxietySection({read,handleReadmore}) {
               and push through tough times.
             </p>
             }
-            <button type="button" className="btn btn-dark my-2 " onClick={handleReadmore}>
+            <button type="button" className="btn btn-dark my-2 " onClick={handleClick}>
               Read More
             </button>
           </div>

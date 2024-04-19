@@ -9,7 +9,7 @@ function HeroSection() {
       <div className="hero">
         <div className="container py-5">
           <div className="row py-5">
-            <div className="col-md-6 d-flex flex-column align-items-center justify-content-center py-3">
+            <div className="hero-content col-md-6 d-flex flex-column align-items-center justify-content-center py-3">
               <div className="display-3 my-4 ">
                 You Deserve
                 <br /> To Be Happy

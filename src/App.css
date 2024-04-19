@@ -1,7 +1,7 @@
 
 .colo{
-  background-color:#282828;
-  
+ background-color: #282828;
+ 
 }
 
 .nav-list{
@@ -17,7 +17,9 @@
   background-position: center;
     background-repeat: no-repeat;
   background-size: cover;
-  height: 100vh;
+  opacity: 0.9;
+  
+  
   
 
   
@@ -99,4 +101,15 @@ height: 100%;
 }
 .service{
   background-color:#CE7805
+}
+
+.hero-content{
+  background: rgba(255, 255, 255, 0.1); /* White background with transparency */
+  border-radius: 10px;                 /* Rounded corners */
+  padding: 20px;  
+                      /* Padding around content */
+                        /* Fixed width */
+  backdrop-filter: blur(6px);         /* Blurred effect on the background */
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+  border: 1px solid rgba(255, 255, 255, 0.3);
 }
